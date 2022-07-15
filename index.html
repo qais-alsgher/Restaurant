@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Task</title>
+    <link rel="icon" type="image/x-icon" href="https://img.freepik.com/premium-vector/retro-restaurant-logo_23-2148474404.jpg">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <img src="https://img.freepik.com/premium-vector/retro-restaurant-logo_23-2148474404.jpg" alt="logo" width="60px" height="60px"/>
+        <nav>
+        <ul>
+            <button>Home</button>
+            <button>Items</button>
+            <button>About US</button>
+            <button>Contact Us</button>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="formId">
+            <div class="lebleT"><label>Food Name : </label></div>
+            <input type="text" name="foodName" id="foodName"><br/>
+            <div class="lebleT"><label>Food type : </label></div>
+            <select name="type" id="type">
+                <option value="fruitAndVegetables">Fruit and vegetables</option>
+                <option value="starchyFood">Starchy food</option>
+                <option value="dairy">Dairy</option>
+                <option value="protein">Protein</option>
+                <option value="Fat">Fat</option>
+            </select>
+            <div class="lebleT"><label>price  : </label></div>
+            <input type="text" name="price" id="price"><br/><br/>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div id="tableF">
+        </div>
+    </main>
+    <footer>
+        <p id="cop"> &copy;Powered by Qais Alsgher </p>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
