@@ -29,9 +29,9 @@ tPrice.textContent="Price";
 
 Food.prototype.render= function() {
 
-    let tRow=document.createElement("tr");
-    tF.appendChild(tRow);
-    let tID=document.createElement('td');
+let tRow=document.createElement("tr");
+tF.appendChild(tRow);
+let tID=document.createElement('td');
 tRow.appendChild(tID);
 tID.textContent=`${this.foodId}`;
 let tName=document.createElement('td');
