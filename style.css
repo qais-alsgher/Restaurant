@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color:#FAF3E3;
+    color: #FAF3E3;
     background-color: #FF9F29;
     font-family: 'Gentium Book Plus', serif;
     font-family: 'Playfair Display', serif;
@@ -10,7 +10,7 @@
 }
 
 nav {
-    
+
     float: right;
     margin-right: 30px;
     margin-top: 10px;
@@ -19,7 +19,7 @@ nav {
 
 nav button {
     width: 115px;
-    height : 40px;
+    height: 40px;
     border-radius: 20px;
 }
 
@@ -29,7 +29,7 @@ header img {
 }
 
 
-form{
+form {
 
     margin: auto;
     text-align: center;
@@ -39,8 +39,9 @@ form{
 
 }
 
-input[type=text], select {
-    width:75%;
+input[type=text],
+select {
+    width: 75%;
     height: 25px;
     padding-left: 12px;
     border: 1px solid #FF9F29;
@@ -55,10 +56,11 @@ label {
     padding: 12px 12px -1 0;
     display: inline-block;
 }
-.lebleT{
-float: left;
-width: 25%;
-margin-top: 6px;
+
+.lebleT {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
 }
 
 input[type=submit] {
@@ -69,32 +71,30 @@ input[type=submit] {
     float: right;
 }
 
-input[type=submit]:hover,button:hover {
-    background-color:#1A4D2E;
+input[type=submit]:hover,
+button:hover {
+    background-color: #1A4D2E;
     cursor: pointer;
 }
 
-#cop {
-    margin-top: 70px;
-    text-align:center;
-}
 
 table {
-    text-align:center; 
-    margin-left:auto; 
-    margin-right:auto; 
-    margin-top:130px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 130px;
     border-collapse: collapse;
     width: 600px;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-th{
-    background-color:#000000 ;
+th {
+    background-color: #000000;
 }
 
-th,td {
+th,
+td {
     padding: 12px 15px;
 }
 
@@ -110,3 +110,21 @@ tr:last-of-type {
     border-bottom: 4px solid #000000;
 }
 
+#clear {
+    text-align: center;
+}
+#clear button{
+    background-color: #000000;
+    margin-top: 5px;
+    width: 600px;
+    height: 40px;
+}
+#clear button:hover{
+    background-color: #1A4D2E;
+    cursor: pointer;
+}
+
+#cop {
+    margin-top: 70px;
+    text-align: center;
+}
