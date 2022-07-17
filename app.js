@@ -1,8 +1,8 @@
 `use strict`;
+
+const allFood=[];
+
 //constructor food
-
-allFood=[];
-
 function Food (foodname,type,price,foodId){
 this.foodId=foodId;
 this.foodName=foodname;
@@ -16,6 +16,7 @@ function countId(){
     return (Math.floor(1000 + Math.random() * 9000));
 }
 
+//submit event 
 const form=document.getElementById("formId");
 
 form.addEventListener('submit',handLeSubmit);

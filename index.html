@@ -26,7 +26,7 @@
     <main>
         <form id="formId">
             <div class="lebleT"><label>Food Name : </label></div>
-            <input type="text" name="foodName" id="foodName"><br/>
+            <input type="text" name="foodName" id="foodName" placeholder="Food Name" pattern="[a-zA-Z'-'\s]*" required ><br/>
             <div class="lebleT"><label>Food type : </label></div>
             <select name="type" id="type">
                 <option value="fruitAndVegetables">Fruit and vegetables</option>
@@ -36,12 +36,10 @@
                 <option value="Fat">Fat</option>
             </select>
             <div class="lebleT"><label>price  : </label></div>
-            <input type="text" name="price" id="price"><br/><br/>
+            <input type="text" name="price" id="price" placeholder="price" pattern="[1-300\s]*" required><br/><br/>
             <input type="submit" value="Submit">
         </form>
 
-        <div id="tableF">
-        </div>
     </main>
     <footer>
         <p id="cop"> &copy;Powered by Qais Alsgher </p>
