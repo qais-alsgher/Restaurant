@@ -31,7 +31,6 @@ localSet()
 }
 
 function localSet(){
-
 let arrFood =JSON.stringify(allFood);   
 localStorage.setItem("food",arrFood);
 }
