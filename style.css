@@ -34,7 +34,8 @@ form{
     margin: auto;
     text-align: center;
     margin-top: 100px;
-    width: 500px;
+    width: 550px;
+    height: 300px;
 
 }
 
@@ -73,9 +74,9 @@ input[type=submit]:hover,button:hover {
     cursor: pointer;
 }
 
-
-table, th, td {
-    border: 1px solid black;
+#cop {
+    margin-top: 70px;
+    text-align:center;
 }
 
 table {
@@ -83,10 +84,29 @@ table {
     margin-left:auto; 
     margin-right:auto; 
     margin-top:130px;
-    width: 500px;
+    border-collapse: collapse;
+    width: 600px;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 
-#cop {
-    margin-top: 70px;
-    text-align:center;
+th{
+    background-color:#000000 ;
 }
+
+th,td {
+    padding: 12px 15px;
+}
+
+tr td {
+    border-bottom: 2px solid #FAF3E3;
+}
+
+tr td:nth-of-type(even) {
+    background-color: #1A4D2E;
+}
+
+tr:last-of-type {
+    border-bottom: 4px solid #000000;
+}
+
