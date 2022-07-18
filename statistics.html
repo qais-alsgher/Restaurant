@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+   
 </head>
 <body>
     <header>
@@ -27,12 +28,15 @@
         <div id="tableF">
         </div>
         
-         <div id="clear"><button onclick="localStorage.removeItem('food');window.location.href='./statistics.html'">Clear Table</button></div>
+        <div id="clear"><button onclick="localStorage.removeItem('food');window.location.href='./statistics.html'">Clear Table</button></div>
+        <div class="chart-container">
+        <canvas id="chart"></canvas>
+        </div>    
     </main>
     <footer>
         <p id="cop"> &copy;Powered by Qais Alsgher </p>
     </footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script src="statistics.js"></script>
-
 </html>
