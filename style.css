@@ -125,6 +125,15 @@ tr:last-of-type {
 }
 
 #cop {
-    margin-top: 70px;
+    margin-top: 40px;
     text-align: center;
+}
+
+
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 35vh;
+    width: 50vw;
+    margin-top: 30px;
 }
